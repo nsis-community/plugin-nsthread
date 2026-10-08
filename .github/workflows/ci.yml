@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
       - name: Build plug-in
-        uses: nsis-dev/release-package@ebe53b3b0a66177ed65d6accc94d466ee8881c16 # v0.3.0
+        uses: nsis-dev/release-package@d97a40353b77be7ebbc08524012befbf1275efd8 # v0.4.0
         with:
           name: nsThread
           sources: |
