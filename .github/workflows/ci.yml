@@ -27,5 +27,6 @@ jobs:
           sources: |
             Contrib/nsThread/nsThread.c
             Contrib/nsThread/nsThread.rc
+            .github/compat/nsis3.c
           strict: false
           release: ${{ github.event_name == 'release' }}
